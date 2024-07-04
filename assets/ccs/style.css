@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho{
+    background-color: blueviolet;
+    text-align: center;
+    min-height: 200px;
+    color: white;
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: 42%;
+    right: 43%;
+}
+body{
+    background-color:rgb(245, 234, 255);
+}
+main{
+    background-color: white;
+    width: 1500px;
+    margin: auto;
+    height: 500px;
+    margin: auto;
+}
+.rel-cima{
+    position: relative;
+}
+.abs-cima{
+    position: absolute;
+    top: 12%;
+    right: 55%;
+    font-size: 1.5em;
+}
+.rel-form{
+    top: 46%;
+    left: 9%;
+    position: relative;
+}
+.abs-form{
+    position: absolute;
+    font-size: 1.5em;
+}
+input{
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 15px
+}
+::placeholder{
+    font-size: 14px;
+}
