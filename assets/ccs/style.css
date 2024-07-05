@@ -52,3 +52,12 @@ input{
 ::placeholder{
     font-size: 14px;
 }
+.abs-form2{
+    position: absolute;
+    top:20px;
+    right: 20%;
+    
+}
+.rel-form2{
+    position: relative;
+}
