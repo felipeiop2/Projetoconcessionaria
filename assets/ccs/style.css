@@ -22,7 +22,7 @@ main{
     background-color: white;
     width: 1500px;
     margin: auto;
-    height: 500px;
+    height: 900px;
     margin: auto;
 }
 .rel-cima{
@@ -35,7 +35,7 @@ main{
     font-size: 1.5em;
 }
 .rel-form{
-    top: 46%;
+    top: 28%;
     left: 9%;
     position: relative;
 }
@@ -54,10 +54,42 @@ input{
 }
 .abs-form2{
     position: absolute;
-    top:20px;
-    right: 20%;
+    top:61px;
+    right: 87%;
+    font-size: 1.5em;
     
 }
-.rel-form2{
-    position: relative;
+.abs-form3{
+    position: absolute;
+    top: 121px;
+    right: 61%;
+    font-size: 1.5em;
+}
+#desc{
+    border: 0.1px solid black;
+}
+.abs-form4{
+    position: absolute;
+    top: 234px;
+    right: 87%;
+    font-size: 1.5em;
+}
+.abs-form5{
+    position: absolute;
+    top: 298px;
+    right: 87%;
+    font-size: 1.5em;
+}
+.abs-form6{
+    position: absolute;
+    top: 365px;
+    right: 87%;
+}
+.abs-form7{
+    position: absolute;
+    top: 415px;
+}
+.abs-form8{
+    position: absolute;
+    top:  450px;
 }
